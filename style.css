@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Asul&display=swap");
+
+body {
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+  height: 100vh;
+  font-family: "Asul", sans-serif;
+}
+
+.container-form {
+  column-gap: 10px;
+}
+
+.user {
+  border: none;
+  outline: none;
+  padding: 6px;
+  background: #E3DFFD;
+  border-bottom: 3px solid #e5d1fa;
+  border-radius: 0 5px 5px 0;
+  font-size: 18px;
+}
+
+.add {
+  border: none;
+  outline: none;
+  padding: 6px;
+  background: transparent;
+  box-shadow: 0 0 5px #a790ec;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: all .3s ease-out;
+}
+
+.add:hover {
+  transform: scale(1.05);
+  background: #C1AEFC;
+}
+
+.container-list {
+  gap: 5px;
+}
+
+.item {
+  display: flex;
+  gap: 5px;
+  padding: 5px;
+  transition: all .3s ease-out;
+}
+
+.item:hover{
+  transform: translateX(5px);
+}
+
+.users {
+  border: none;
+  outline: none;
+  padding: 4px;
+  border-radius: 0 5px 5px 0;
+  background: #E3DFFD;
+}
+
+.options {
+  display: flex;
+  gap: 5px;
+}
+
+.impossible {
+  border: none;
+  outline: none;
+  padding: 4px;
+  border-radius: 5px;
+  background: #E3DFFD;
+}
+
+.possible {
+  border: none;
+  outline: none;
+  padding: 4px;
+  border-radius: 5px;
+  background: #C1AEFC;
+}
+
+.delete {
+  border: none;
+  outline: none;
+  padding: 4px;
+  border-radius: 5px;
+  background: #DD5353;
+}
